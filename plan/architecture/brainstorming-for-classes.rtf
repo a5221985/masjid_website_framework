@@ -7,55 +7,230 @@
 
 \f0\fs24 \cf0 Classes\
 	1. User\
+		ID\
+		Role(s):\
+			1. Imam\
+			2. Muazzin\
+			3. Site-Admin\
+			4. Ordinary-User\
+			5. Teacher\
+			6. Student\
+			7. Volunteer\
+			8. Librarian\
+	2. Curriculum\
+		1. Fields:\
+			1. Subject-List\
+				1. Subject\
+					1. Subject-Title\
+					2. Subject-Description\
+					3. Topics-list\
+						1. Topic\
+							1. Topic-Title\
+							2. Topic-Description\
+			2. Assignment-List\
+				1. Assignment\
+					1. Assignment-Title\
+					2. Assignment-Description\
+					3. Document(s)\
+						1. Questions\
+						2. Solutions\
+\
+	3. Recorder\
+		1. Record\
+		2. Pause\
+		3. Stop\
+		4. Move-Cursor (for re-recorder)\
+	4. Player\
+		1. Play\
+		2. Pause\
+		3. Fast-forward\
+		4. Rewind\
+		5. Increase-speed\
+		6. Decrease-speed\
+		7. Move-Cursor\
+	5. Recording\
+		1. Audio-Recording\
+			1. Title\
+			2. Description\
+			3. Duration\
+			4. Audio\
+			5. Format\
+		2. Video-Recording\
+			1. Title\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 			2. Description\
+			3. Duration\
+			4. Video\
+			5. Format\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+	6. Site (challenging)\
+\
+	7. Credentials\
+		1. User-Name\
+		2. Password\
+	8. User-Details\
+		1. First Name\
+		2. Last Name\
+		3. Title\
+		4. Gender\
+		5. Email\
+		6. Mobile Number(s)\
+		7. Address(es)\
+		8. Date of Birth\
+		9. About\
+		10. Areas of Expertise - Description\
+		11. Student of (optional)\
+		12. Interests & Hobbies\
+		13. Achievements\
+		14. Resume (can be converted to resume service - Auto Resume generation + Assessment + Submission to interested parties + show openings + apply)\
+	9. Account-Type\
 		1. Imam\
-		2. Muazzin\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 		2. Muazzin\
 		3. Site-Admin\
 		4. Ordinary-User\
 		5. Teacher\
 		6. Student\
 		7. Volunteer\
-	2. Curriculum\
-\
-	3. Recorder\
-	4. Player\
-	5. Recording\
-\
-	6. Site\
-\
-	7. Credentials\
-	8. User-Details\
-	9. Account-Type\
-	10. Document(s)\
+		8. Librarian\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	10. Document(s)\
+		1. Certificates\
+		2. Marks Cards\
+		3. ID\
+			1. Adhar\
+			2. SSN\
+			3. Passport\
+		4. License\
+		5. Election Card\
+		6. Bills\
+			1. Telephone Bill\
+			2. Utility Bill (Gas, Water)\
 	11. User-Profile\
+		1. Photo\
+		2. User-Details\
 \
 	12. Schedule\
+		1. List-of-courses\
+			1. Course\
+				1. ID\
+				2. Subject\
+				3. Start-date\
+				4. End-date\
+				5. Daily-schedule\
+					1. Start time\
+					2. End time\
 	13. Email\
 	14. Calendar\
 	15. Test-Scores\
+		1. Score\
+		2. Total Score\
+		3. Grade\
 	16. Study-Material\
+		1. Title\
+		2. Description\
+		3. Links\
+		4. Documents (upload)\
 	17. Comment(s)\
+		1. Title\
+		2. Description\
+		3. Thumbs up\
+		4. Thumbs down\
 \
 	18. Fee\
+		1. Amount\
+		2. Currency\
 	19. Payment-Details\
+		1. Payment-date-and-time\
+		2. Purpose\
+		3. Breakup\
+			1. Fee(s)\
+		4. Taxes\
 	20. Schedule-Order\
 	21. Syllabus\
+		1. Courses\
+		2. Course-schedule\
 	22. Syllabus-Order\
 	23. Book(s)\
+		1. Title\
+		2. Description\
+		3. Links\
+		4. Locations\
 	24. Payment\
-	25. Invoice\
+		1. Payment-date-and-time\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 		2. Purpose\
+		3. Breakup\
+			1. Items\
+		4. Taxes\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 	25. Invoice\
+		1. Payment-details\
 	26. Notification-of-order\
+		1. Title\
+		2. Description\
+		3. Links\
+		4. Documents\
 	27. Question(s)\
+		1. Description\
+		2. Links\
 	28. Assignment\
+		1. Questions\
+		2. Hints\
 	29. Notification-of-assigment-submission\
+		1. Deadlines\
+		2. Links\
 	30. Result(s)\
+		1. Test-scores\
+		2. Aggregate\
+			1. Score\
+			2. Grade\
+		3. Comments\
 	31. Challenge-Application\
+		1. Test\
+		2. Description\
+		3. Test-Score\
 	32. Fine\
+		1. Amount\
+		2. Currency\
+		3. Purpose\
 \
 	33. Event(s)\
+		1. Title\
+		2. Description\
+		3. Date & Time\
+		4. Comments\
+		5. Status\
+			1. Approval/Rejection/On-Hold\
 	34. Event-Details\
 	35. Request-for-approval\
 	36. Event-Cost-Estimation\
+		1. Breakup\
+		2. Total\
 	37. Event-Cost\
+		1. Amount\
+		2. Currency\
+	38. Notification-of-events\
+		1. Event Details\
+		2. Links\
+\
+	38. Catalog\
+		1. Books\
+		2. Availability-details\
+	39. Inventory\
+		1. Stock\
+			1. Books\
+			2. Magazines\
+			3. News-papers\
+			4. Journals\
+			5. Papers\
+\
+	40. Approval\
+		1. Comment(s)\
+	41. Rejection\
+		1. Comment(s)\
+	\
 	\
 	\
 	}
